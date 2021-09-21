@@ -1,7 +1,5 @@
 package com.lamoroso.example;
 
-import java.io.IOException;
-
 public class RestClientBuilder<T extends Builder<T, R>, R> {
 
     private Builder<?, ?> wrappedBuilder;

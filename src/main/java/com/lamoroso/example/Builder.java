@@ -11,4 +11,6 @@ public abstract class Builder<T extends Builder<T, R>, R> {
         Collections.addAll(this.pools, pools);
         return this;
     }
+
+    public Builder<T, R> build(){return null;}
 }
